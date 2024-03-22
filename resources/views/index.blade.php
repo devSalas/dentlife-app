@@ -116,9 +116,9 @@
         </div>
         {{-- testimonios --}}
         <div class="pb-32 bg-secondary">
-            <h2 class="relative text-5xl font-semibold text-fourth opacity-70 text-center">
+            <h2 class="relative text-5xl md:text-7xl font-semibold text-fourth opacity-70 text-center">
                 TESTIMONIOS
-                <p class="absolute text-2xl text-primary bottom-0 w-full text-center">NUESTRO PACIENTES </p>
+                <p class="absolute text-2xl md:text-3xl text-primary bottom-0 w-full text-center">NUESTRO PACIENTES </p>
             </h2>
             <p class="p-4 text-pretty max-w-sm m-auto my-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio expedita nulla ad aut, minus non et corrupti culpa ducimus alias explicabo similique necessitatibus asperiores soluta laudantium vel pariatur officia doloremque?
@@ -131,7 +131,8 @@
                     <!-- Slides -->
                     <div class="swiper-slide p-2 ">
                         
-                        <div class="w-full relative top-10  flex justify-center">
+                        <div class="w-full relative top-10  flex justify-center relative">
+
                             <img class=" w-24 h-24 border-4 rounded-full border-fourth bg-blue-500 z-10"  src="" alt="">
                         </div>
 
@@ -234,6 +235,57 @@
                 });
             </script>
         </div>    
+        {{-- servicios --}} 
+        <div class="bg-fourth w-full pb-32">
+            <h2 class="relative text-5xl md:text-7xl font-semibold text-[#c1a087] opacity-70 text-center  pt-16 mb-16">
+                SERVICIOS
+                <p class="absolute text-2xl md:text-3xl text-primary bottom-0 w-full text-center">NUESTRO PACIENTES </p>
+            </h2>
+            <div class="max-w-7xl m-auto grid grid-cols-1 place-content-center sm:grid-rows-2 lg:grid-flow-col sm:grid-cols-2 lg:grid-cols-[1fr,1fr,1fr] gap-4 p-4 ">
+                {{-- items de servicios --}}
+                    <div class="relative max-w-sm m-auto">
+                        <div class="absolute w-full h-full  text-white text-center flex  flex-col justify-end justify-items-end z-10 bg-black/30 rounded-xl">
+                            <p class="pb-4 text-2xl font-bold underline underline-offset-8 decoration-fifth">BLANQUEAMIENTO <br> DENTAL</p>
+                        </div>
+                        <img src="{{asset('img/BLANQUEAMIENTO-DENTAL.webp')}}" class="rounded-xl border-4 border-fifth  " alt="blanqueamiento dental ">      
+                    </div>
+                    
+                    <div class="relative max-w-sm m-auto">
+                        <div class="absolute w-full h-full  text-white text-center flex  flex-col justify-end justify-items-end z-10 bg-black/30 rounded-xl">
+                            <p class="pb-4 text-2xl font-bold underline underline-offset-8 decoration-fifth">PROTESIS DENTAL</p>
+                        </div>
+                        <img src="{{asset('img/PROTESIS-DENTAL.webp')}}" class=" rounded-xl border-4 border-fifth" alt="blanqueamiento dental">      
+                    </div> 
 
+                    <div class="max-w-sm lg:max-w-lg lg:h-full lg:aspect-[1/1]   lg:row-span-2  m-auto flex justify-center items-center relative">
+
+                        <div class="absolute w-full h-full  text-white text-center flex  flex-col justify-end justify-items-end z-10 bg-black/30 rounded-xl">
+                            <p class="pb-4 text-2xl font-bold underline underline-offset-8 decoration-fifth">ORTODONCIA</p>
+                            {{-- <div class="w-full px-8">
+                                <hr class="h-[3px] border-0 bg-fifth mb-4">
+                            </div> --}}
+                        </div>
+
+                        <img src="{{asset('img/BRACKETS.webp')}}" class=" rounded-xl border-4 border-fifth  object-cover h-full" alt="blanqueamiento dental">      
+                    </div>
+
+                    <div class="relative max-w-sm m-auto">
+                        <div class="absolute w-full h-full  text-white text-center flex  flex-col justify-end justify-items-end z-10 bg-black/30 rounded-xl">
+                            <p class="pb-4 text-2xl font-bold underline underline-offset-8 decoration-fifth">ENDODONCIA </p>
+                            
+                        </div>
+                        <img src="{{asset('img/ENDODONCIA.webp')}}" class="rounded-xl border-4 border-fifth  " alt="blanqueamiento dental ">      
+                    </div>
+
+                    <div class="relative max-w-sm m-auto">
+                        <div class="absolute w-full h-full  text-white text-center flex  flex-col justify-end justify-items-end z-10 bg-black/30 rounded-xl">
+                            <p class="pb-4 text-2xl font-bold underline underline-offset-8 decoration-fifth">DISEÑO DE SONRISA</p>
+                        </div>
+                        <img src="{{asset('img/DISENO-DE-SONRISA-2.JPG')}}" class="rounded-xl border-4 border-fifth  " alt="blanqueamiento dental ">      
+                    </div>
+                
+
+            </div>
+        </div>
     </div>
 @endsection
