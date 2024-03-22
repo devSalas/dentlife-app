@@ -2,32 +2,30 @@
 @section('title',"dentlife")
 
 @section('content')
+<div class="w-full   relative m-auto  ">
 
-    <div class="w-full    relative m-auto  ">
 
-        
-        <header class="absolute  w-full  font-bold">
-            <div class="max-w-7xl m-auto flex justify-between py-4">
-                <div>
-                    DENTLIFE
-                </div>
-                <div class="flex gap-4 hidden sm:block">
-                    <a href="">Inicio</a>
-                    <a href="">Servicios</a>
-                    <a href="">Nosotros</a>
-                    <a href="">Promociones</a>
-                    <a href="">Blog</a>
-                </div>
-                <div class="hidden sm:block">
-                    <a href="">tiktok</a>
-                    <a href="">facebook</a>
-                </div>
+    <header class="absolute  w-full  font-bold">
+        <div class="max-w-7xl m-auto flex justify-between py-4">
+            <div>
+                DENTLIFE
             </div>
-        </header>
+            <div class="flex gap-4">
+                <a href="">Inicio</a>
+                <a href="">Servicios</a>
+                <a href="">Nosotros</a>
+                <a href="">Promociones</a>
+                <a href="">Blog</a>
+            </div>
+            <div>
+                <a href="">tiktok</a>
+                <a href="">facebook</a>
+            </div>
+        </div>
+    </header>
 
-        <div class="video w-screen h-screen  flex justify-center items-center ">
-           <video src="{{asset('video-dentlifeperu.mp4')}}" class="w-full h-full"   controls>
-
+    <div class="video w-screen h-screen  flex justify-center items-center">
+        <video src="{{asset('video-dentlifeperu.mp4')}}" class="w-full" autoplay controls muted>
            </video>
         </div>
 
@@ -288,4 +286,10 @@
             </div>
         </div>
     </div>
+        </video>
+    </div>
+</div>
+
+
 @endsection
+
