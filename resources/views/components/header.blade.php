@@ -1,7 +1,9 @@
 {{-- puedes agregarlo en un contenedor que ocupe todo el ancho --}}
 <div class="max-w-7xl m-auto flex justify-between items-center py-4 px-2">
     <div>
-        <img src="{{asset('img/LOGO-DENT-LIFE-WEB.webp')}}" class="relative max-w-60 z-10" alt="">
+        <a href="{{ url('/') }}">
+            <img src="{{asset('img/LOGO-DENT-LIFE-WEB.webp')}}" class="relative max-w-60 z-10" alt="LOGO DENT LIFE CLINICA DENTAL">
+        </a>
     </div>
     <div class="flex  gap-16 justify-center items-center">
         <div class=" sm:flex gap-4 hidden  text-lg text-white z-10 ">
@@ -32,4 +34,4 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"/></svg>
         </div>
     </div>
-</div>
+</div>  
