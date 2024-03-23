@@ -12,20 +12,24 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
-
+<style>
+    html,body{
+        scroll-behavior: smooth;
+    }
+</style>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="scroll-smooth">
     @yield('content')
 
     <footer class="bg-[#1d1818] text-white">
         <section class="p-12 flex md:flex-row flex-col justify-between gap-12">
-            <div class="">
-                <h5 class="text-4xl">Dent Life</h5>
-                <!-- <img src="logo.png" alt=""> -->
+            <div class="max-w-60 bg-white ">
+              
+                <img class="w-full" src="{{asset('img/logo-dent-life-web-2.webp')}}" alt="">
             </div>
             <div class="grid md:grid-cols-3 gap-12">
                 <div>

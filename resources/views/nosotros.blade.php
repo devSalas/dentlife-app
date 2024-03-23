@@ -37,7 +37,9 @@ $informacion = array(
 @section('title',"dentlife")
 
 @section('content')
-
+<header class="absolute w-full  font-bold">
+  <x-header></x-header>
+</header>
 <section class="h-96 relative">
   <img class="w-full h-full object-cover" src="https://gacetadental.com/wp-content/uploads/2022/07/abrir-clinica-dental-documentacion.jpg" alt="">
   <div class="flex justify-center items-center bg-black/50 absolute inset-0">
