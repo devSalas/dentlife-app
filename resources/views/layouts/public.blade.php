@@ -8,17 +8,16 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
+
+
     @yield('content')
 
     <footer class="bg-[#1d1818] text-white">
@@ -50,6 +49,8 @@
             </p>
         </section>
     </footer>
+
+    <x-w />
 </body>
 
 </html>
