@@ -106,7 +106,7 @@
 
         </section>
         <hr class=" border-t border-[#f2efe9]">
-        <section class="p-6 flex justify-center items-center max-w-7xl lg:justify-between m-auto lg:px-0">
+        <section class="p-6 flex flex-col lg:flex-row md:px-8 justify-center items-center max-w-7xl lg:justify-between m-auto xl:px-0">
             <p class="text-center">
                 © Dent Life 2024. Todos los derechos reservados.
             </p>
