@@ -36,7 +36,7 @@
 
 <div class="uno size-4 flex justify-center items-center rounded-full bg-red-500 fixed z-50 pointer-events-none bottom-20 right-8 text-white text-xs">1</div>
 
-<section id="ws" class="bg-white w-96 rounded-xl shadow-lg fixed bottom-28 right-8 overflow-hidden hidden">
+<section id="ws" class="bg-white w-96 rounded-xl shadow-lg fixed bottom-28 right-8 overflow-hidden hidden z-50">
   <header class="bg-green-500 px-4 py-6 flex items-center gap-4">
     <div>
       <x-w-icon />

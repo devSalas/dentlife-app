@@ -10,6 +10,9 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});
 
 Route::get('/regitrar', function () {
     return view('welcome');

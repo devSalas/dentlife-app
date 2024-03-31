@@ -1,0 +1,1 @@
+<script src="{{asset('build/assets/app-mqEmiGqA.js')}}"></script>

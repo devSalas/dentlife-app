@@ -20,6 +20,12 @@ export default {
                 "third": "#FFFFFFF",
                 "fourth": "#D0B7A4",
                 "fifth": "#ae9067"
+            },
+            boxShadow: {
+                '3xl': '0px 0px 20px rgb(0 0 0 / 0.50)',
+            },
+            fontFamily: {
+                
             }
         },
     },
